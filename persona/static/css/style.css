@@ -1,0 +1,19 @@
+body {
+    background-color: bisque;
+}
+.listaempleados {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: auto auto auto auto;
+}
+.listaoficinas {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: auto auto auto;
+}
+.listaoficinas h1 {
+    border: 1px solid black;
+}
+.listaoficinas p {
+    border: 1px solid black;
+}

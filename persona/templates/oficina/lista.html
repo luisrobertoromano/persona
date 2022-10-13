@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="listaoficinas">
+    <h2><strong>Nombre</strong></h2>
+    <h2><strong>Nombre Corto</strong></h2>
+    <h2><strong>Cantidad de empleados</strong></h2>
+
+    
+    {% for oficina in oficinas  %}
+        <p>{{oficina.nombre}}</p>
+        <p>{{oficina.nombre_corto}}</p>
+        <p>{{oficina.personal}}</p>
+        
+    {% endfor %}
+        
+</div>
+
+    
+{% endblock content %}
+    
